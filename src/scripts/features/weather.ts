@@ -566,6 +566,6 @@ function isGeolocation(str = ''): str is Weather.Geolocation {
 }
 
 function isIconPack(str = ''): str is Weather.IconPack {
-	const temps: Weather.IconPack[] = ['default']
+	const temps: Weather.IconPack[] = ['default', 'material']
 	return temps.includes(str as Weather.IconPack)
 }

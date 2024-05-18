@@ -37,7 +37,7 @@ declare namespace Weather {
 
 	type MoreInfo = 'none' | 'msnw' | 'yhw' | 'windy' | 'custom'
 
-	type IconPack = 'default'
+	type IconPack = 'default' | 'material'
 
 	namespace API {
 		interface Current {
